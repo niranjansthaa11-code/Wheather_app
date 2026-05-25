@@ -39,7 +39,8 @@ body{
     margin-right: 16px;
     font-size: 18px;
     height: 60px;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 .search button{
     border: 0;
