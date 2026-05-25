@@ -15,6 +15,8 @@ async function checkwheather(city) {
         document.querySelector(".wheather").style.display ="block";
     }
 
+
+
     console.log(data);
     document.querySelector(".city").innerHTML = data.name;
     document.querySelector(".temp").innerHTML = Math.round( data.main.temp )+ "°C";
@@ -49,5 +51,7 @@ document.querySelector(".error").style.display="none";
 searchBtn.addEventListener("click", ()=> {
     checkwheather(searchBox.value);
 })
-
+searchBox.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") checkwheather(searchBox.value);
+});
 
