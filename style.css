@@ -108,3 +108,15 @@ body{
     font-weight: 400;
     display: none;
 }
+.logo-box{
+    width: 80px;
+    height: 60px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.applogo {
+    width: 140px;
+    display: block;
+    margin-top: -10px;
+    margin-left: -10px;
+}
