@@ -8,7 +8,7 @@ async function checkwheather(city) {
     var data = await response.json();
     
     //making the not data found type of thing when user eneters the wrong data 
-    if(data.cod == "404"){
+    if(data.cod == "404" || searchBox.value.trim() == ""){
     document.querySelector(".error").style.display="block";
     document.querySelector(".wheather").style.display ="none";
     }else{
