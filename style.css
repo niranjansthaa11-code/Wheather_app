@@ -108,20 +108,15 @@ body{
     font-weight: 400;
     display: none;
 }
-.logo-box, .my-info {
-    width: 120px;  
-    height: 50px;   
+.logo-box{
+    width: 80px;
+    height: 60px;
+    margin-left: 300px;
+    margin-top: 10px;
 }
-.applogo, .details-mine {
-    width: 130px;
-    margin-top: -5px;
-    margin-left: -5px;
-    overflow: hidden;
-}
-
-.all-info-mine{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 15px;
+.applogo {
+    width: 140px;
+    display: block;
+    margin-top: -10px;
+    margin-left: -10px;
 }
