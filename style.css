@@ -113,9 +113,10 @@ body{
     height: 50px;   
 }
 .applogo, .details-mine {
-    width: 120px;
+    width: 130px;
     margin-top: -5px;
     margin-left: -5px;
+    overflow: hidden;
 }
 
 .all-info-mine{
