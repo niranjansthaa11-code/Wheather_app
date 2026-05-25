@@ -56,7 +56,7 @@ body{
 }
 .wheather_kasto_xw_icon{
     width: 170px;
-    margin-top: 35px;
+    margin-top: 15px;
 
 }
 .wheather h1 {
@@ -75,6 +75,7 @@ body{
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 .col1{
     display: flex;
@@ -95,4 +96,15 @@ body{
     font-size: 28px;
     margin-top: -6px;
     justify-content: center;
+}
+
+.wheather{
+    display: none;
+}
+.error{
+    margin-top: 10px;
+    text-align: left;
+    font-size:20px;
+    font-weight: 400;
+    display: none;
 }
