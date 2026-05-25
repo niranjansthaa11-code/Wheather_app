@@ -2,6 +2,7 @@ const apiKey = "9c86841bf9db19b78988280a2ed3f014";
 const apiUrl ="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const searchBox = document.querySelector(".search input")
 const searchBtn = document.querySelector(".search button")
+const card = document.querySelector(".card"); 
 
 async function checkwheather(city) {
     const response = await fetch(apiUrl + city +  `&appid=${apiKey}`);
@@ -26,18 +27,23 @@ async function checkwheather(city) {
 // For the image change thing 
 if(data.weather[0].main == "Clouds"){
     wheather_status.src="images/clouds.png"
+    card.style.background = "linear-gradient(135deg, #bdc3c7, #2c3e50)"
 }
 else if(data.weather[0].main == "Rain"){
     wheather_status.src="images/rain.png"
+    card.style.background = "linear-gradient(135deg, #1a1a2e, #16213e)";
 }
 else if(data.weather[0].main == "Clear"){
     wheather_status.src="images/clear.png"
+    card.style.background = "linear-gradient(135deg, #f7b733, #fc4a1a)";
 }
 else if(data.weather[0].main == "Drizzle"){
     wheather_status.src="images/drizzle.png"
+    card.style.background = "linear-gradient(135deg, #3a7bd5, #3a6073)";
 }
 else if(data.weather[0].main == "Mist"){
     wheather_status.src="images/mist.png"
+    card.style.background = "linear-gradient(135deg, #606c88, #3f4c6b)";
 }
 
 document.querySelector(".wheather").style.display ="block";
