@@ -32,7 +32,10 @@ A simple and lightweight weather checker website that lets you search any city a
  <hr>
  
  <h4>Project Photos :</h4>
+ <img src="https://raw.githubusercontent.com/niranjansthaa11-code/Wheather_app/main/Screenshot%202026-05-30%20133714.png" width="600" alt="screenshot 1" />
+
+<img src="https://raw.githubusercontent.com/niranjansthaa11-code/Wheather_app/main/Screenshot%202026-05-30%20133731.png" width="600" alt="screenshot 2" />
+
+<img src="https://raw.githubusercontent.com/niranjansthaa11-code/Wheather_app/main/Screenshot%202026-05-30%20133743.png" width="600" alt="screenshot 3" />
  <hr>
  Made with ❤️ in Nepal ....
-This works on the free api of the open wheather : https://openweathermap.org/api
-Made with love ❤️:) 
