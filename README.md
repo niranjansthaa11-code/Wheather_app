@@ -1,7 +1,38 @@
-
-Mausam sathi (मौसम साथी) is a nepali weather checker website ...
-This is a website made for finding out the weather condition of the specific location.
-To use this just type in the city you are living in and finally get all of the information about the temprature humidity and the wind speed too..
-
+<h1>Mausam sathi (मौसम साथी)</h1>
+<hr>
+A simple and lightweight weather checker website that lets you search any city and get real-time weather condition instantly.
+<hr>
+<h3>Features:</h3>
+<ol>
+  <li>Search weather conditon by city name</li>
+  <li>Displays the current temprature , Humidity Percentage and Wind speed too</li>
+  <li>Minimal and Clean go to interface</li>
+</ol>
+<hr>
+<h3>How it Works :</h3>
+<p>Tye any city name into the search bar to </p>
+<ol>
+  <li>Get the current temprature instantly</li>
+  <li>lets you view the humidity and wind speed details</li>
+  <li>See a wheather conditon summary</li>
+</ol>
+<hr>
+<h3>Inspiration</h3>
+<P>I was just learning about the javascript and i wanted to learn how to call an api and get the data from it and attach it to the static html and i thought what to make and i got this idea on reddit where a user had made a weather app like this </P>
+<hr>
+<h3> Languages Used :</h3>
+<ol>
+  <li>Html</li>
+  <li>Css</li>
+  <li>Javascript</li>
+</ol>
+<hr>
+<h3>Api</h3>
+<p> This project is powered by the free tier of the Openwheathermap api </p>
+ <hr>
+ 
+ <h4>Project Photos :</h4>
+ <hr>
+ Made with ❤️ in Nepal ....
 This works on the free api of the open wheather : https://openweathermap.org/api
 Made with love ❤️:) 
